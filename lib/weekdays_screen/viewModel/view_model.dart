@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import '../model/model.dart';
+import '../reposatory/model/model.dart';
 
 class DayViewModel with ChangeNotifier {
   final List<WeekDaysModel> days = WeekDaysModel.getWeekDays();
